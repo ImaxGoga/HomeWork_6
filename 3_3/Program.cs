@@ -15,13 +15,6 @@ void foo()
 
     double[,] massRand = new double[3,4];
     FillArray(massRand);
-    // for (int i = 0; i < massRand.GetLength(0); i++)
-    // {
-    //     for (int j = 0; j < massRand.GetLength(1); j++)
-    //     {
-    //         massRand[i,j] = new Random().Next(-10,10);
-    //     }
-    // }
     PrintArray(massRand);
     Console.WriteLine("Сумма элементов, находящихся на главной диагонали: " + SumDiag(massRand));
 }
